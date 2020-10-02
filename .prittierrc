@@ -1,0 +1,10 @@
+{
+  "bracketSpacing": true,
+  "printWidth": 100,
+  "tabWidth": 4,
+  "useTabs": true,
+  "endOfLine": "lf",
+  "compilerOptions": {
+    "jsx": "react"
+  }
+}

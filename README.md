@@ -1,4 +1,21 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple text editor that was built in a few days as a training project
+
+##Features:
+
+- Has couple of formatting options (bold, italic, underline, line-though, font, fontSize)
+- Undo, redo
+- Saving, opening files (IndexedDB API)
+
+##What I've learned:
+
+- Building draft apps in few days
+- Working with Indexed DB
+
+![Example of formatted text](https://i.imgur.com/XQAyolG.png)
+
+![Saving project](https://i.imgur.com/2fet6z0.png)
+
+![Opening project](https://i.imgur.com/h8gnph0.png)
 
 ## Available Scripts
 

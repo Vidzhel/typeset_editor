@@ -1,25 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Editor } from "./features/Editor";
+import { createGlobalStyle, ThemeProvider } from "styled-components";
+
+const GlobalStyles = createGlobalStyle`
+    .container {
+      max-width: 100% !important;
+      padding: 0;
+  }
+  
+  input[type=checkbox], input[type=radio] {
+    display: none;
+  }
+`;
+
+const theme = {
+  breakpoints: {
+    sm: "576px",
+    md: "768px",
+    lg: "992px",
+    xl: "1200px",
+  },
+};
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <GlobalStyles />
+      <Editor />
+    </ThemeProvider>
   );
 }
 
