@@ -1,12 +1,12 @@
 A simple text editor that was built in a few days as a training project
 
-##Features:
+## Features:
 
 - Has couple of formatting options (bold, italic, underline, line-though, font, fontSize)
 - Undo, redo
 - Saving, opening files (IndexedDB API)
 
-##What I've learned:
+## What I've learned:
 
 - Building draft apps in few days
 - Working with Indexed DB
